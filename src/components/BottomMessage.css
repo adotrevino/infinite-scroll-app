@@ -1,0 +1,19 @@
+.bottom-image{
+    max-height: 450px;
+    padding-top: 100px;
+    
+}
+.bottom-section .column:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media(max-width:768px){
+    .bottom-section .column:first-child{
+        margin-top: 100px;
+        justify-content: center;
+    }
+}
+.bottom-section .title{
+    font-size: 4rem;
+}
